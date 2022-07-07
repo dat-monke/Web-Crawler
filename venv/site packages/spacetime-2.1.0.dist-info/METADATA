@@ -1,0 +1,36 @@
+Metadata-Version: 2.0
+Name: spacetime
+Version: 2.1.0
+Summary: Spacetime Node Framework
+Home-page: https://github.com/Mondego/spacetime
+Author: Rohan Achar
+Author-email: ra.rohan@gmail.com
+License: MIT
+Keywords: spacetime,distributed frameworks,distributed simulation frameworks
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: System :: Distributed Computing
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Provides-Extra: crypto
+Provides-Extra: dev
+Provides-Extra: flask
+Provides-Extra: test
+Requires-Dist: cbor
+Provides-Extra: crypto
+Requires-Dist: cryptography; extra == 'crypto'
+Provides-Extra: dev
+Provides-Extra: flask
+Requires-Dist: flask; extra == 'flask'
+Provides-Extra: test
+
+This is the implementation of spacetime and relational types in Python. See https://github.com/Mondego/spacetime
+
+
